@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MangaHut.Data\MangaHut.Data.csproj" />
+    <ProjectReference Include="..\MangaHut.Models\MangaHut.Models.csproj" />
+    <ProjectReference Include="..\MangaHut.Services\MangaHut.Services.csproj" />
+  </ItemGroup>
+
 </Project>
