@@ -152,7 +152,7 @@ namespace MangaHut.Data.Migrations
 
                     b.HasIndex("StoreId");
 
-                    b.ToTable("StoreManga");
+                    b.ToTable("StoreMangas");
 
                     b.HasData(
                         new

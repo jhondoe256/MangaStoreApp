@@ -6,7 +6,7 @@ namespace MangaHut.Data.Entities
     {
         [Key]
         public int Id { get; set; }
-        public Location Location { get; set; }
+        public virtual Location Location { get; set; }
         public string Name { get; set; } = "Manga Hut";
     }
 }

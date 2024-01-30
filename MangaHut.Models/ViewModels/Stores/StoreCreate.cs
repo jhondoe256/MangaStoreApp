@@ -2,6 +2,6 @@ namespace MangaHut.Models.ViewModels.Stores
 {
     public class StoreCreate
     {
-         public string Name { get; set; } = "Manga Hut";
+        public string Name { get; set; }
     }
 }

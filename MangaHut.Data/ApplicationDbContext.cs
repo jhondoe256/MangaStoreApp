@@ -10,6 +10,8 @@ namespace MangaHut.Data
         public DbSet<Store> Stores { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<Manga> Mangas { get; set; }
+        public DbSet<StoreManga> StoreMangas { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
